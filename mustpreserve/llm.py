@@ -10,7 +10,6 @@ from .data import norm
 
 SYS = """You annotate CLIENT utterances from health-behavior / motivational-interviewing (MI) counseling.
 The text is an automatic speech transcript: no punctuation, fillers, repetitions and recognition errors.
-The goal: find everything a Spanish culture-adapted translation MUST NOT lose or distort.
 
 1) spans: list every must-preserve piece of meaning, each copied VERBATIM from the text (short, <= 12 words),
    even if it is ungrammatical; never correct or paraphrase. One span per distinct piece of meaning.
