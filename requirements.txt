@@ -1,0 +1,4 @@
+openai>=1.40
+pandas>=1.5
+tqdm>=4.60
+python-dotenv>=1.0

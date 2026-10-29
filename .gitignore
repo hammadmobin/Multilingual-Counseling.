@@ -1,0 +1,12 @@
+# secrets
+.env
+# results and LLM cache
+outputs/
+# datasets (not redistributed)
+data/*
+!data/README.md
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
